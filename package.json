@@ -1,0 +1,27 @@
+{
+  "name": "gatsby-twitter-threads-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A demonstration of creating a blog from you Twitter threads",
+  "author": "Mike Mangialardi",
+  "keywords": [
+    "gatsby",
+    "twitter",
+    "threads",
+    "blog"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^3.14.2",
+    "gatsby-source-twitter-threads": "^1.0.9",
+    "markdown-it": "^12.2.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
